@@ -1,0 +1,4 @@
+VIEH_BCP is the data set csv for the Breast Cancer detection.
+ADNI Training Q3 APOE collectionADNI CSV is for the Alzheimer's Detection.
+The Data for Brain Tumor couldn't be committed to GitHub due to its huge size. Here is the data set of that. https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+The datasets of the others will soon be Updated.
