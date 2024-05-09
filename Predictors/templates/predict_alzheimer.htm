@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Alzheimer's Disease</title>
+</head>
+<body>
+    <h1>Predict Alzheimer's Disease</h1>
+    <form action="/predict_alzheimer" method="post">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+        </select><br><br>
+        
+        <!-- Include other input fields for Alzheimer's prediction -->
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
