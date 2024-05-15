@@ -1,14 +1,8 @@
-from flask import Flask, render_template, request
-import numpy as np
-import tensorflow as tf
-from PIL import Image
-import io
-import base64
+import os
 
 def load_model_and_labels():
-    # Get the directory path of the current file
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    model_path = os.path.join(dir_path, "best_model.h5")
+    # Specify the new path for the model
+    model_path = r"C:\Users\Chimni\Desktop\New folder\Notebooks\Models\Brain_Tumor.h5"
     model = tf.keras.models.load_model(model_path)
     class_labels = ['Glioma', 'Meningioma', 'No tumor', 'Pituitary']
     return model, class_labels
